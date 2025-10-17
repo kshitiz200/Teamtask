@@ -1,0 +1,177 @@
+GITHUB-it is a web based platform that is used for collaborative work.
+It allows developers to manage the project.
+Developers can able to store, track ,modify project data.
+GitHub Features: 
+Version control-ability to revert back to previous version
+Cloud based-it will stored and can open at any computer
+Open source-platform independent and access it from anywhere
+Code review-access to someone o review the code
+Deployment-uploading files from local to hosting program 
+Security-private  or public
+Repository management - folders
+Community Support-
+
+GIT-Distributed Version control system that is used to track changes in a project.
+It allows developer to maintain multiple versions of the project.
+
+Features
+
+Version control
+open source
+community support
+branching and merging
+
+GIT has 3 components: 
+
+1.working directory
+2.Staging area
+3.Remote repository
+
+1.create GitHub account
+install git
+
+
+2.
+2.1--git setup
+git config --list
+git config --global user.name 'githubname'
+git config --global user.email 'mail@gmail.com'
+
+2.2-->controlpanel-->user accounts-->credentials manager-->windows credentials-->github-->remove credentials.
+2.3-->how to push the code to the GitHub
+1.with clone process
+1.1 GitHub
+new repo
+add the description
+click on add read me file
+create and code--copy the link
+
+2.local
+select a folder--cmd 
+git init -it initializes the git file that tracks(optional)
+git clone url--automatically applied---it will clone the repo folder to your local 
+close the terminal -- navigate to the read me file 
+copy the index.html to the remote folder
+
+1st process
+
+3.git add .
+  git status
+  git commit -m 'msg'
+  git push -u origin main
+  git push
+  close
+
+git add. it adds everything to staging area
+git status-used to check the current status of the project
+git commit -m 'msg' create an id for each version and pass message
+git push -u origin main 
+git push
+
+4.how to deploy 
+open repo--settings--pages--change none to main action --save---to check the status--(open activity green colour with tick)
+
+
+
+
+
+
+
+2nd process
+
+project folder
+git init
+git add .
+git status(optional)
+git commit -m 'msg'
+git branch -m main
+git remote add origin "url"
+git push -u origin main
+
+
+
+
+
+git pull -used to get the changes from repo to local
+
+
+how to keep all tasks at single place
+
+
+open vs code 
+organise all the files like 
+day 1--  .....html
+day 2-- ......html
+day 3
+.
+.
+.
+.
+index.html---->combine all above files using anchor tag<a href=".....html" >jdncn</a>
+
+settings -collaborators - add people 
+
+Encountering blue screen:
+I 
+something enter
+click on esc 
+then :wq
+
+
+
+task-team of 4
+1-team lead create a repo----give access to the team 
+t2-clone the project t1.html --push the code
+t3-clone the project-git pull--t2.html-push the code
+t4-clone the project-git pull--t3.html-push the code
+
+
+
+
+
+
+
+
+
+
+
+
+C:\Users\dkkdo\Desktop\git2>git pull --rebase origin main
+From https://github.com/BabySumanjali/process2
+ * branch            main       -> FETCH_HEAD
+Successfully rebased and updated refs/heads/main.
+
+C:\Users\dkkdo\Desktop\git2>git push origin main
+Enumerating objects: 38, done.
+Counting objects: 100% (38/38), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (35/35), done.
+Writing objects: 100% (37/37), 131.51 KiB | 5.26 MiB/s, done.
+Total 37 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), done.
+To https://github.com/BabySumanjali/process2.git
+   1c54d0b..23a71e1  main -> main
+
+C:\Users\dkkdo\Desktop\git2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
